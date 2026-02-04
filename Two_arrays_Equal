@@ -1,0 +1,6 @@
+class Solution:
+    def checkEqual(self, a, b) -> bool:
+        #code here
+        sorted_a = sorted(a)
+        sorted_b = sorted(b)
+        return  sorted_a == sorted_b
