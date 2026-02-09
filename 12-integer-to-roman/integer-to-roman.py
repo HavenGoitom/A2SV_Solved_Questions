@@ -18,7 +18,8 @@ class Solution:
         output = []
 
         for key,value in roman_numerals.items():
-            while num >= value:
-                output.append(key)
-                num -= value
+            count = num//value
+            output.append(count*key)
+            num = num % value
+
         return "".join(output)
