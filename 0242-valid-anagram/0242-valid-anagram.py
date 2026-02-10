@@ -4,7 +4,13 @@ class Solution:
         s_counter = Counter(s)
         t_counter = Counter(t)
 
-        for key in s_counter:
-            if s_counter[key] != t_counter[key]:
-                return False
-        return True
+        if len(s)>len(t):
+            for key in s_counter:
+                if s_counter[key] != t_counter[key]:
+                    return False
+            return True
+        else:
+            for key in t_counter:
+                if t_counter[key] != s_counter[key]:
+                    return False
+            return True
