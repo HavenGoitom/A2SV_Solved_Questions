@@ -17,9 +17,10 @@ class RandomizedSet:
             if val == self.value[-1]:
                 self.value.pop()
             else:
-                
-                self.value[self.num_dict[val]] = self.value[-1]
-                self.value.pop()
+                # 1 2 3
+                self.num_dict[self.value[-1]] = self.num_dict[val] # update the idx in dict
+                self.value[self.num_dict[val]] = self.value[-1] # move it to the back 1 3 3
+                self.value.pop() # 1 3 so 2 is deleted
 
             del self.num_dict[val]
             return True
