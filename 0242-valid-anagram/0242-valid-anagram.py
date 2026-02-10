@@ -5,12 +5,9 @@ class Solution:
         t_counter = Counter(t)
 
         if len(s)>len(t):
-            for key in s_counter:
-                if s_counter[key] != t_counter[key]:
-                    return False
-            return True
-        else:
-            for key in t_counter:
-                if t_counter[key] != s_counter[key]:
-                    return False
-            return True
+            return False
+
+        for key in t_counter:
+            if t_counter[key] != s_counter[key]:
+                return False
+        return True
