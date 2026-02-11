@@ -1,0 +1,73 @@
+# t = int(input())
+
+# for i in range(t):
+#     n, x, k = map(int, input().split())
+#     moves = list(input())
+#     left = 0
+#     time=0
+#     count = 0
+
+#     while left<n and t<k:
+
+#         if moves[left] == 'L':
+#             x -= 1
+#         else:
+#             x += 1
+
+#         if x == 0:
+#             left = 0
+#             count += 1
+#         else:
+#             left += 1
+#         time += 1
+
+#     print(count)
+
+t = int(input())
+
+for _ in range(t):
+    n, x, k = map(int, input().split())
+    s = input()
+
+    time = 0
+    first_hit = -1
+
+
+    for i in range(n):
+        if time == k:
+            break
+        if s[i] == 'L':
+            x -= 1
+        else:
+            x += 1
+        time += 1
+        if x == 0:
+            first_hit = time
+            break
+    
+    #To check wheather the robot reaches 0 after it finishes it's time or wether it never reaches 0
+    if first_hit == -1 or first_hit > k:
+        print(0)
+        continue
+
+    x = 0
+    cycle_len = -1
+    for i in range(n):
+        if s[i] == 'L':
+            x -= 1
+        else:
+            x += 1
+        if x == 0:
+            cycle_len = i + 1 #number of moves taken
+            break
+
+    
+    if cycle_len == -1: #It reached 0 exactly once No repetition is possible
+        print(1)
+        continue
+
+
+    remaining = k - first_hit #How many full cycles of length c fit into remaining time? eg 6 = 2 2 2 so 3 cycles
+    print(1 + remaining // cycle_len) # 1 → the first time the robot reached 0
+
+
