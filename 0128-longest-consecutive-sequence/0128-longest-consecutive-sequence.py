@@ -14,6 +14,7 @@ class Solution:
 
         nums_sort = sorted(nums)
         nums_map = Counter(nums_sort) 
+        nums_map = sorted(nums_map.items())
         print(nums_map)
 
         max_len = 0
@@ -22,16 +23,18 @@ class Solution:
         if len(nums_map) == 1:
             return 1
 
-        for key in nums_map:
+        for key, value in nums_map:
 
             if count == 0:
                 previous = key
                 count += 1
-            elif nums_map[key] > 0 and key == previous + 1:
+                max_len = max(max_len,count)
+                
+            elif value > 0 and key == previous + 1:
                 count += 1                
                 previous = key
                 max_len = max(max_len,count)
-            elif nums_map[key] > 0:
+            elif value > 0:
                 count = 1
                 previous = key
 
