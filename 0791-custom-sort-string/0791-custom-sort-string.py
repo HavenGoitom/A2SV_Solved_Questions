@@ -7,10 +7,7 @@ class Solution:
         for i in range(len(order)):
              weighted_ord[order[i]] = i
 
-        for i in range(len(s)):
-            for j in range(len(s)-1-i):
-                if weighted_ord.get(s[j+1], len(s)) < weighted_ord.get(s[j], len(s)):
-                    s[j+1], s[j] = s[j], s[j+1]
-            print(s)
+        s.sort(key = lambda char: weighted_ord.get(char, len(order)))
+        
         return "".join(s)
 
