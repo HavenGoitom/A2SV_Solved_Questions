@@ -1,26 +1,23 @@
 n,s = map(int, input().split(" "))
 a = list(map(int, input().split(" ")))
 
-def segement(n,s,a):
-    
-    min_len = float('inf')
+def big_sum(n,s,a):
+    count = 0
     left = 0
     total = 0
 
     for right in range(n):
 
         total += a[right]
-
+        
         while total >= s:
-            min_len = min(min_len, right - left + 1)
+            count += n - right
             total -= a[left]
             left += 1
-    
-    if min_len != float("inf"):
-        return min_len
-    else:
-        return -1
 
-print(segement(n,s,a))
         
-        
+
+    return count
+
+
+print(big_sum(n,s,a))

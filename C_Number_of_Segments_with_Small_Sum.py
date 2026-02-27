@@ -1,24 +1,22 @@
 n,s = map(int, input().split(" "))
 a = list(map(int, input().split(" ")))
 
-def segement(n,s,a):
-    
-    total = 0
+def small_sum(n,s,a):
+    count = 0
     left = 0
-    max_len = 0
+    total = 0
 
     for right in range(n):
-
+        
         total += a[right]
 
         while total > s:
             total -= a[left]
             left += 1
 
-        max_len = max(max_len, right - left + 1)
+        count += (right - left + 1)
 
-    return max_len
+    return count
 
-print(segement(n,s,a))
-        
-        
+
+print(small_sum(n,s,a))
