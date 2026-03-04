@@ -8,18 +8,21 @@ for i in range(n):
 
 flag = True
 
-if books[0][0] > books[0][1]:
-    books[0][1] , books[0][0] = books[0][0] , books[0][1]
 
-for i in range(n-1):
-    if books[i][1] >= books[i+1][1]:
-        continue
-    if books[i][1] >= books[i+1][0]:
-        books[i+1][0],books[i+1][1] =  books[i+1][1], books[i+1][0]
-        continue
-    flag = False
-    break
-    
+previous_height = float('inf')
+
+for w,h in books:
+    big = max(w, h)
+    small = min(w, h)
+
+    if big <= previous_height:
+        previous_height = big
+    elif small <= previous_height:
+        previous_height = small
+    else:
+        flag = False
+        break
+
 if flag:
     print("YES")
 else:
