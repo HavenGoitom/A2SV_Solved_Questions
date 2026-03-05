@@ -8,7 +8,6 @@ class Solution:
 
         for num in nums:
             total += num
-            
             count += prefix_sum[total - k]
             prefix_sum[total] += 1
         
