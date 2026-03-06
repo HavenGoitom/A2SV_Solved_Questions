@@ -5,8 +5,7 @@ class Solution:
         #so if two nums divided by k remainder is the same then the two nums difference will give us a number who is divisibel by k
         
         # print(nums)
-        hash_map = defaultdict(int)
-        hash_map[0] = -1
+        hash_map = {0: -1}
         total = 0
 
         for i in range(len(nums)):
