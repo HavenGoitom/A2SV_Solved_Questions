@@ -43,6 +43,7 @@
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0142-linked-list-cycle-ii](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0523-continuous-subarray-sum](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
@@ -59,10 +60,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
+| [0142-linked-list-cycle-ii](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0876-middle-of-the-linked-list/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
+| [0142-linked-list-cycle-ii](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0876-middle-of-the-linked-list](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0876-middle-of-the-linked-list/) | Easy |
 <!---LeetCode Topics End-->
