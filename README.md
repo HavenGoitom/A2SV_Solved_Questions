@@ -55,4 +55,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0523-continuous-subarray-sum](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0523-continuous-subarray-sum/) | Medium |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 <!---LeetCode Topics End-->
