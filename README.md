@@ -8,6 +8,7 @@
 | ------- | ------- |
 | [0303-range-sum-query-immutable](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0304-range-sum-query-2d-immutable](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [0496-next-greater-element-i](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
@@ -50,6 +51,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0142-linked-list-cycle-ii/) | Medium |
+| [0496-next-greater-element-i](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 | [0523-continuous-subarray-sum](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0523-continuous-subarray-sum/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
@@ -91,6 +93,7 @@
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0496-next-greater-element-i](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 | [1598-crawler-log-folder](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/1598-crawler-log-folder/) | Easy |
 | [2390-removing-stars-from-a-string](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Simulation
@@ -105,4 +108,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0933-number-of-recent-calls](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0933-number-of-recent-calls/) | Easy |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0496-next-greater-element-i](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 <!---LeetCode Topics End-->
