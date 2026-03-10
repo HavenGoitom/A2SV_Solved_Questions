@@ -35,6 +35,7 @@
 | ------- | ------- |
 | [0303-range-sum-query-immutable](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0303-range-sum-query-immutable/) | Easy |
 | [0304-range-sum-query-2d-immutable](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [0933-number-of-recent-calls](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0933-number-of-recent-calls/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -96,4 +97,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2390-removing-stars-from-a-string](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/2390-removing-stars-from-a-string/) | Medium |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0933-number-of-recent-calls](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0933-number-of-recent-calls/) | Easy |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0933-number-of-recent-calls](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0933-number-of-recent-calls/) | Easy |
 <!---LeetCode Topics End-->
