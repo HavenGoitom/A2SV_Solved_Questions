@@ -38,6 +38,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2381-shifting-letters-ii](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/2381-shifting-letters-ii/) | Medium |
+| [2390-removing-stars-from-a-string](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/2390-removing-stars-from-a-string/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -84,4 +85,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0206-reverse-linked-list](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/0206-reverse-linked-list/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2390-removing-stars-from-a-string](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/2390-removing-stars-from-a-string/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2390-removing-stars-from-a-string](https://github.com/HavenGoitom/A2SV_Solved_Questions/tree/main/2390-removing-stars-from-a-string/) | Medium |
 <!---LeetCode Topics End-->
