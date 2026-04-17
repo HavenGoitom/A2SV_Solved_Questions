@@ -1,23 +1,23 @@
-def helper(idx, val):
+def helper(val, idx):
     if idx == len(s2):
-        if val == p1:
-            return 1  
-        else:
-            return 0
-
+        res.append(val)
+        return
+    
     c = s2[idx]
 
     if c == '+':
-        return helper(idx + 1, val + 1)
+        helper(val + 1, idx + 1)
 
     elif c == '-':
-        return helper(idx + 1, val - 1)
+        helper(val - 1, idx + 1)
 
     else:
-        return helper(idx + 1, val + 1) + helper(idx + 1, val - 1)
+        helper(val + 1,idx + 1)
+        helper(val - 1, idx + 1) 
 
 
-valid = helper(0, 0)
-total = 2 ** s2.count('?')
+helper(0, 0)
+valid = res.count(p1)
 
-print(valid / total)
+
+print(valid / len(res))
