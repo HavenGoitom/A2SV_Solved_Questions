@@ -3,6 +3,7 @@ class Solution:
         
         # hashmap = defaultdict(list)
         graph = [[] for _ in range(n)]
+        visited = [False for _ in range(n)]
 
         for p,n in edges:
             graph[p].append(n)
@@ -11,20 +12,24 @@ class Solution:
         # print(graph)
 
         found = False
+        ans  = False
 
         def helper(node, visited):
             nonlocal found
+            nonlocal ans
             if node == destination:
-                return True
+                ans = ans or True
+                return ans
 
-            visited.add(node)
+            visited[node] = True
 
             for n in graph[node]:
-                if n not in visited:
-                    found = helper(n, visited)
-                if found:
-                    return True
-            return False
+                if not visited[n]:
+                    helper(n, visited)
+                # if found:
+                #     return True
+            # return False
 
-        return helper(source, set())   
+        helper(source, visited)   
+        return ans
          
