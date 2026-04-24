@@ -17,19 +17,22 @@ class Solution:
         # print(hashmap) {1: [5, [2, 3]], 2: [3, []], 3: [3, []]}
         count = 0
 
-        def dfs(id):
-            nonlocal count
+        stack = []
 
+        for emp in employees:
+            if emp.id == id:
+                stack.append(id)       
+                break
+
+        while stack:
+
+            id = stack.pop()
             val = hashmap[id]
             count += val[0]
 
             if val[1]:
                 for id2 in val[1]:
-                    dfs(id2)
+                    stack.append(id2)
             
-        for emp in employees:
-            if emp.id == id:
-                dfs(id)        
-                break
-                
+        
         return count
